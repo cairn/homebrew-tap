@@ -1,6 +1,6 @@
 # Cairn Homebrew tap
 
-The official Homebrew tap for [Cairn Code](https://github.com/cairn/cairn), the terminal-based coding agent built by Cairn.
+The official Homebrew tap for [Cairn](https://github.com/cairn/cairn), the terminal-based coding agent built by Cairn.
 
 ## Install
 
@@ -23,8 +23,8 @@ This installs the `cairn` command.
 brew upgrade cairn
 ```
 
-Cairn Code can also update itself with `cairn update`; if you installed it with Homebrew, prefer `brew upgrade cairn` so Homebrew stays in charge of the binary.
+Cairn can also update itself with `cairn update`; if you installed it with Homebrew, prefer `brew upgrade cairn` so Homebrew stays in charge of the binary.
 
 ## Official source
 
-This tap is the only official Homebrew source for Cairn. Cairn Code is distributed from the [cairn/cairn](https://github.com/cairn/cairn) GitHub repository and through this tap.
+This tap is the only official Homebrew source for Cairn. Cairn is distributed from the [cairn/cairn](https://github.com/cairn/cairn) GitHub repository and through this tap.
