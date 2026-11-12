@@ -33,7 +33,7 @@ class Cairn < Formula
 
   def caveats
     <<~EOS
-      Cairn Code self-updates with `cairn update`. If you installed it with
+      Cairn self-updates with `cairn update`. If you installed it with
       Homebrew, prefer `brew upgrade cairn` so Homebrew stays in charge
       of the binary.
     EOS
