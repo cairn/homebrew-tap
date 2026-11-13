@@ -29,6 +29,9 @@ class Cairn < Formula
   def install
     asset = Dir["cairn-code-*"].first
     bin.install asset => "cairn"
+    # Claim the generic `agent` name too, as a symlink so upgrades keep
+    # it pointing at the current binary.
+    bin.install_symlink "cairn" => "agent"
   end
 
   def caveats
@@ -41,5 +44,6 @@ class Cairn < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/cairn --version")
+    assert_match version.to_s, shell_output("#{bin}/agent --version")
   end
 end
